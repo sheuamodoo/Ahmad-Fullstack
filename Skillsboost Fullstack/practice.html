@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./practice.css" />
+  </head>
+  <body>
+    <div id="text"></div>
+    <script>
+      const fruits = ["mango", "banana", "apple", "cashew"];
+      let text;
+      // for (let items of fruits){
+      //     console.log(items);
+      //     text+= items + ", ";
+      //     document.getElementById('text').innerHTML = text;
+      // }
+
+      // for (let i in fruits) {
+      //   console.log(i);
+      //   text += i + ", ";
+      //   document.getElementById("text").innerHTML = text;
+      // }
+      // fruits.forEach(function(items){
+      //     text += items + ", "
+      //     document.getElementById('text').innerHTML = text
+      // });
+      // fruits.forEach((items, index) => {
+      //     text += items + (index)
+      //     document.getElementById('text').innerHTML = text;
+      // })
+
+      // const num_1 = [2, 3, 4, 5, 6];
+      // const num_2 = num_1.filter((value, index) => {
+      //   return value > 3;
+      // });
+      // // const num_2 = num_1.map((x) => {
+      // //   return x;
+      // // });
+      // document.getElementById("text").innerHTML = num_2;
+      // console.log(num_2);
+
+      const month = ["Jan", "Feb", "Mar", "Apr", "May"];
+      const myMonth = month.with(2, "March");
+      const myMonth2 = [...month, ...myMonth];
+      document.getElementById("text").innerHTML = myMonth;
+      document.getElementById("text").innerHTML = myMonth2;
+    </script>
+  </body>
+</html>

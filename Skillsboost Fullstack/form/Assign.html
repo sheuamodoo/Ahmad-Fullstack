@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Assign.css" />
+    <title>Biometric</title>
+  </head>
+  <body>
+    <form action="" method="">
+      <h3>BIOMETRIC DATA FORM</h3>
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="fullName">Full Name: </label>
+        <input
+          type="text"
+          name="fullName"
+          id="fullName"
+          placeholder="John Doe"
+        />
+        <br /><br />
+        <label for="DOB">Date Of Birth: </label>
+        <input type="date" name="DOB" id="DOB" />
+        <br /><br />
+        <label for="Gender">Gender: </label>
+        <label for="male">M</label>
+        <input type="radio" name="Gender" id="Gender" value="male" />
+        <label for="female">F</label>
+        <input type="radio" name="Gender" id="Gender" value="female" />
+        <br /><br />
+        <label for="Nationality">Nationality: </label>
+        <input type="text" name="Nationality" id="Nationality" />
+        <br /><br />
+        <label for="Address">Address: </label>
+        <input type="text" name="Address" id="Address" />
+        <br /><br />
+        <label for="phone">Phone Number: </label>
+        <input
+          type="number"
+          name="phone"
+          id="phone"
+          placeholder="08123456789"
+        />
+        <br /><br />
+        <label for="passport">Passport Photograph: </label>
+        <input
+          type="file"
+          name="passport"
+          id="passport"
+          placeholder="attach here"
+        />
+        <br /><br />
+        <label for="left_thumb">Left Thumbprint: </label>
+        <input type="image" name="left_thumb" id="left_thumb" />
+        <br /><br />
+        <label for="right_thumb">Right Thumbprint: </label>
+        <input type="image" name="right_thumb" id="right_thumb" />
+        <br /><br />
+        <label for="sign">Signature: </label>
+        <input type="image" name="sign" id="sign" />
+        <br /><br />
+        <label for="Date">Date: </label>
+        <input type="datetime" name="Date" id="Date" />
+      </fieldset>
+    </form>
+  </body>
+</html>

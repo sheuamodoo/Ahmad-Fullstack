@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .same {
+        background: linear-gradient(
+          to right,
+          rgb(193, 7, 7),
+          rgb(232, 59, 74),
+          rgb(189, 82, 123),
+          rgb(154, 103, 131)
+        );
+        /* width: 300px;
+        margin: 10px;
+        border: 1px solid #a113ae;
+        box-sizing: content-box;
+        padding: 20%;
+        justify-content: center; */
+        margin: 10px;
+        padding: 50px;
+        /* width: 100%; */
+      }
+      .box {
+        width: 300px;
+        padding: 5px;
+        background-color: blueviolet;
+        border: 2px solid black;
+        margin: 5px auto;
+      }
+      #same {
+        box-sizing: border-box;
+      }
+      div:first-child {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="same" id="same">
+      <div class="box">first</div>
+      <div class="box">second</div>
+      <div class="box">Third</div>
+    </div>
+    <div class="same">
+      <div class="box">first</div>
+      <div class="box">second</div>
+      <div class="box">Third</div>
+    </div>
+  </body>
+</html>
