@@ -3,9 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS+Guides&family=Playwrite+VN:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
     <style>
       #para1 {
-        color: aqua;
+        color: red;
+        font-family: "Playwrite DE SAS Guides", cursive;
+        font-weight: 600;
+        font-style: normal;
+      }
+      #para2 {
+        font-family: "Playwrite VN", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        text-decoration: underline 2px red;
+        text-shadow:
+          -10px -5px 5px rgb(238, 69, 218),
+          15px 7px 4px rgb(0, 21, 255);
+      }
+      #para3 {
+        text-shadow: 5px 3px 3px blue;
+        font-weight: bold;
       }
     </style>
     <title>Document</title>
@@ -15,13 +39,16 @@
     <div></div>
     <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing</p>
     <p id="para2" type="button">Lorem ipsum dolor sit amet consectetur</p>
+    <p id="para3">
+      Lorem ipsum dolor sit amet consectetur ksdjhfgdhj ,skdjfh jvcfd
+    </p>
     <form action="" method="post">
       <input type="text" name="name" placeholder="yourName" />
       <input type="text" name="message" placeholder="yourMessage" />
       <button id="" type="submit">Submit</button>
     </form>
-    <script>
+    <!-- <script>
       document.getElementById("para1").style.backgroundColor = "blue";
-    </script>
+    </script> -->
   </body>
 </html>
