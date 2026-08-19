@@ -3,5 +3,27 @@ h1 {
 }
 p {
   font-size: 10px;
-  color: blue;
+  color: rgb(108, 15, 127);
+}
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: green;
+}
+a:visited {
+  color: aqua;
+}
+a:hover {
+  border: 2px solid rgb(158, 27, 158);
+  border-radius: 5px;
+  padding: 10px;
+  text-shadow:
+    10px 3px 5px rgb(252, 0, 210),
+    -10px -3px 5px rgb(205, 9, 91);
+  background-color: rgb(199, 124, 243);
+  text-decoration: none;
+  color: purple;
+}
+a:active {
+  color: red;
 }
