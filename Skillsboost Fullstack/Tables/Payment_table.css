@@ -1,4 +1,10 @@
-table {
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(201, 196, 196);
+}
+/* table {
   border-collapse: collapse;
   border: 1px solid none;
   border-radius: 20px;
@@ -32,4 +38,62 @@ tbody tr {
 }
 .red {
   color: rgb(251, 32, 32);
+} */
+/* ...................................................................... */
+table {
+  border-collapse: collapse;
+  width: 700px;
+  height: 300px;
+  margin: 100px;
+  padding: 20px;
+  border: 1px solid red;
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px rgb(83, 74, 81);
+}
+tr {
+  border-radius: 50px;
+  border: 1px solid red;
+}
+thead {
+  background-color: grey;
+  color: white;
+  height: 40px;
+}
+tfoot {
+  height: 40px;
+}
+th {
+  text-align: left;
+}
+#Customer {
+  border-top-left-radius: 15px;
+}
+#Deposit {
+  border-top-right-radius: 15px;
+}
+.whiteBG {
+  background-color: white;
+}
+.green {
+  color: rgb(13, 184, 13);
+}
+.borderGreen {
+  background-color: rgb(153, 247, 153);
+  border: 1px solid rgb(153, 247, 153);
+}
+.borderGrey {
+  color: rgb(99, 103, 99);
+  background-color: rgb(203, 207, 203);
+  border: 1px solid rgb(203, 207, 203);
+}
+.border {
+  border-radius: 15px;
+  padding: 3px;
+  width: 50%;
+}
+.right {
+  text-align: right;
+}
+.red {
+  color: red;
 }
