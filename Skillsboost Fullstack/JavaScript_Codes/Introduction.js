@@ -76,17 +76,62 @@ let c = 5;
 // 8 ............. .includes(); - checks if whats inside d bracket exists in d str
 // console.log("  Adegoke  ".includes("e"));
 
-const fname = "Ade";
-const lname = "Bayo";
-const nam = "shayo";
-const fullName = fname + " " + lname;
-console.log(fullName);
+//.........................CLASSWORK
+// const fname = "Ade";
+// const lname = "Bayo";
+// const nam = "shayo";
+// const fullName = fname + " " + lname;
+// console.log(fullName);
 
-const fullN = "Olawale Deji";
-const searchWord = "wale";
+// const fullN = "Olawale Deji";
+// const searchWord = "wale";
 
-console.log(fullN.length);
-console.log(fullN.toUpperCase());
-console.log(fullN.toLowerCase());
-console.log(fullN.includes("Deji"));
-console.log(fullN.includes(searchWord));
+// console.log(fullN.length);
+// console.log(fullN.toUpperCase());
+// console.log(fullN.toLowerCase());
+// console.log(fullN.includes("Deji"));
+// console.log(fullN.includes(searchWord));
+
+// const fullN = "Olawale Deji";
+// const searchWord = "wale";
+
+// console.log("Full Name:" + fullN);
+// console.log("1- Length:" + fullN.length);
+// console.log("2- Uppercase:", fullN.toUpperCase());
+// console.log("3- Lowercase:", fullN.toLowerCase());
+// console.log("4- Contains 'Deji'? ", fullN.includes("Deji"));
+// console.log(`4- Contains ${searchWord}? ${fullN.includes(searchWord)}`);
+
+//........................DataType Conversions
+// const price = "1500";
+// const numericPrice = Number(price);
+// console.log(price + 500);
+// console.log(numericPrice + 500);
+
+//........................... math.round()
+// console.log(Math.round(4.6));
+// console.log(Math.floor(4.9));
+// console.log(Math.ceil(4.1));
+// console.log(Math.min(10, 20, 5, 31.5));
+// console.log(Math.max(10, 20, 5, 31.5));
+
+//.............................TAKING INPUTS
+// const name = prompt("What is your name?: ");
+// const age = prompt("What is your age?: ");
+// alert(`Welcome ${name}, you are ${age} years old `);
+
+// console.log(`Welcome ${name}, you are ${age} years old `);
+// alert("Welcome!" + " " + name);
+// alert("Welcome!", name); -- This is not working
+// alert(`Welcome!, ${name}`);
+
+//..........................CONDITIONAL STATEMENTS
+// const age = 20;
+const age = prompt("Enter your age: ");
+if (age >= 18) {
+  console.log(`You are ${age} years old. You're an adult`);
+} else if (age >= 13) {
+  console.log(`You are ${age} years old. You're a teenager`);
+} else {
+  console.log(`You are ${age} years old. You're a child`);
+}
