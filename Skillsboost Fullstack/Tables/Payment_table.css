@@ -1,0 +1,35 @@
+table {
+  border-collapse: collapse;
+  border: 1px solid none;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: aqua;
+}
+th {
+  background-color: gray;
+  border-radius: 20px;
+  color: white;
+}
+tbody tr {
+  margin: 50px;
+  padding: 150px;
+}
+.right {
+  text-align: right;
+}
+.border {
+  border: 1px none none;
+  border-radius: 5px;
+  padding: 1px;
+  background-color: rgb(194, 188, 188);
+  color: rgb(153, 147, 147);
+}
+.borderGreen {
+  background-color: rgb(107, 244, 107);
+}
+.green {
+  color: rgb(6, 185, 6);
+}
+.red {
+  color: rgb(251, 32, 32);
+}

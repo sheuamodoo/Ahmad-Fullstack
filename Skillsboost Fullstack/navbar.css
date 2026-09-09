@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(179, 175, 175);
+  /* text-align: center; */
+}
+* {
+  box-sizing: border-box;
+}
+nav {
+  background-color: white;
+  width: 1100px;
+  color: black;
+  font-weight: bold;
+  margin: 100px;
+  padding: 30px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 40px 10px 30px;
+}
+a:hover {
+  border-radius: 50px;
+  background-color: rgb(148, 233, 21);
+}
+span {
+  padding: 8px 9px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+}
+span:hover {
+  display: inline;
+}

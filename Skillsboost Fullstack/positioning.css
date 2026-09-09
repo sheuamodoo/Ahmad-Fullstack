@@ -1,0 +1,50 @@
+body {
+  margin-right: 30px;
+  padding-right: 30px;
+}
+div {
+  margin-right: 30px;
+}
+#bottom {
+  background-color: blueviolet;
+  width: 90px;
+  height: 90px;
+  border: 2px solid black;
+  border-radius: 50px;
+  text-align: center;
+  /* align-content: center; */
+  position: fixed;
+  top: 10px;
+  left: 90%;
+}
+#top {
+  background-color: blueviolet;
+  width: 90px;
+  height: 90px;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 50px;
+  position: fixed;
+  /* top: 0px; */
+  bottom: 10px;
+  left: 90%;
+}
+#fat {
+}
+#son {
+}
+p {
+}
+#red {
+  background-color: red;
+}
+#blue {
+  background-color: blue;
+}
+#aqua {
+  background-color: aqua;
+}
+#footer {
+  height: 100px;
+  width: 100px;
+}

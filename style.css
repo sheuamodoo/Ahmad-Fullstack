@@ -21,7 +21,7 @@ a:hover {
     10px 3px 5px rgb(252, 0, 210),
     -10px -3px 5px rgb(205, 9, 91);
   background-color: rgb(199, 124, 243);
-  text-decoration: none;
+  text-decoration: nuone;
   color: purple;
 }
 a:active {
