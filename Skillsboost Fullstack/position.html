@@ -3,19 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="positioning.css" />
-    <title>Css Positioning</title>
+    <link rel="stylesheet" href="" />
+    <title>Css Positioning Troubleshoot</title>
+    <style>
+      body {
+        margin-right: 10px;
+        padding-right: 10px;
+      }
+      div {
+        margin-right: 30px;
+      }
+      #red {
+        background-color: red;
+      }
+      #blue {
+        background-color: blue;
+      }
+      #aqua {
+        background-color: aqua;
+      }
+      #footer {
+        height: 100px;
+        width: 100px;
+        background-color: black;
+      }
+      .move {
+        background-color: blueviolet;
+        width: 70px;
+        height: 70px;
+        border: 2px solid black;
+        border-radius: 50px;
+        text-align: center;
+        align-content: center;
+      }
+    </style>
   </head>
   <body>
     <header id="header"></header>
-    <nav>
-      <a href="#" class="nav">Home</a>
-      <a href="#" class="nav">About</a>
-      <a href="#" class="nav">Contact</a>
-      <a href="#" class="nav">Media</a>
-      <a href="#" class="nav">Business</a>
-    </nav>
-
     <div id="bottom" class="move">
       <p id="p"><a href="#footer">Scroll to bottom</a></p>
     </div>
@@ -184,17 +208,6 @@
     <div id="top" class="move">
       <p><a href="#header">Move to top</a></p>
     </div>
-    <footer id="footer">
-      <div id="foot_1">
-        <p>Contact Us NOW!</p>
-      </div>
-      <div id="foot_2">
-        <p>Find our social media handles below:</p>
-        <a href="#">Facebook .............</a>
-        <a href="#">Twitter .............</a>
-        <br />
-        <a href="#">Instagram .............</a>
-      </div>
-    </footer>
+    <footer id="footer"></footer>
   </body>
 </html>
