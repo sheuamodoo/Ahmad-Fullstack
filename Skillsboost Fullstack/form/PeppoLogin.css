@@ -46,7 +46,7 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
-#blueButton {
+.blueButton {
   background-color: blue;
   color: white;
   border: none;

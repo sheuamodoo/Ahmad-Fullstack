@@ -14,7 +14,7 @@
       </h3>
       <section id="body">
         <div id="form">
-          <img action="">
+          <form action="">
             <div class="center">
               <h2>Welcome Back!</h2>
               <p>We missed you! Please enter your details.</p>
@@ -48,15 +48,15 @@
               <a href="#" id="forgot">Forgot password?</a>
             </div>
             <br /><br />
-            <button class="full" id="blueButton">Sign in</button>
+            <button class="full blueButton" id="submit" type="submit">
+              Sign in
+            </button>
             <br /><br />
-            <button class="full">
+            <button class="full" type="submit">
               <img src="google_2.ico" alt="google" id="google" /> Sign in with
               Google"
             </button>
-            <p class="center">
-              Don't have an account? <a href="http://">Sign up</a>
-            </p>
+            <p class="center">Don't have an account? <a href="#">Sign up</a></p>
           </form>
         </div>
         <p></p>
@@ -72,5 +72,16 @@
         <p></p>
       </section>
     </div>
+    <script>
+      const mail = document.getElementById("email");
+      // document.getElementById("submit").onclick = alert("I am working");
+
+      document.getElementById("submit").onmouseenter = function (event) {
+        event.preventDefault();
+        console.log(mail.value);
+      };
+
+      // document.getElementById("submit").onclick = console.log(email);
+    </script>
   </body>
 </html>
